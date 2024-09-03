@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Saneamento Básico em Cabedelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Saneamento Básico em Cabedelo - PB</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="projetos.html">Projetos em Andamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <form action="enviar-email.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p><strong>Endereço:</strong> Rua Zuila de Araujo Matos, 332, Cabedelo - PB, Brasil</p>
+            <p><strong>Telefone:</strong> (83) 99394-3095</p>
+            <p><strong>Email:</strong> <a href="mailto:contato@saneamentocabedelo.pb.br">joaogabriel@seduc.cabedelo.pb.gov.br</a></p>
+
+            <p><strong>Redes Sociais:</strong></p>
+            <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saneamento Básico em Cabedelo - PB</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
